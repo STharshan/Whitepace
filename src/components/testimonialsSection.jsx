@@ -38,7 +38,12 @@ const TestimonialsSection = () => {
   return (
     <section className="py-16 px-4 md:px-20 bg-white text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-12">
-        What Our Clients <span className="text-yellow-400">Says</span>
+        <span className="block xl:hidden">
+          See what our <span className="bg-gradient-to-t from-yellow-400 from-20% to-transparent to-20%">trusted</span> users Say
+        </span>
+        <span className="hidden xl:block">
+          What Our Clien<span className="bg-gradient-to-t from-yellow-400 from-20% to-transparent to-20%">ts S</span>ays
+        </span>
       </h2>
 
       <div className="grid md:grid-cols-3 gap-6">
