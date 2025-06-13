@@ -4,3 +4,7 @@
 .bg-primary {
   background-color: #043873;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa"; // Import arrow icon
 
 const ExtensionSection = () => {
   return (
-    <section className="bg-primary text-white py-16 px-6 md:px-20">
+    <section id="products" className="bg-primary text-white py-16 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-12">
         {/* Text content */}
         <div className="md:w-1/2 text-center md:text-left">

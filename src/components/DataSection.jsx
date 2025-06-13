@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const DataSection = () => {
   return (
-    <section className="py-16 px-4 sm:px-8 md:px-20 bg-white text-gray-900">
+    <section id="resources" className="py-16 px-4 sm:px-8 md:px-20 bg-white text-gray-900">
       {/* Top Section */}
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         {/* Left Text Content */}

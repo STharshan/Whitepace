@@ -45,7 +45,7 @@ const plans = [
 
 const PricingPlans = () => {
   return (
-    <section className="py-16 px-2 sm:px-4 bg-white text-gray-900">
+    <section id="pricing" className="py-16 px-2 sm:px-4 bg-white text-gray-900">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Choose <span className="underline decoration-amber-300">Your Plan</span>
@@ -87,7 +87,25 @@ const PricingPlans = () => {
                 </li>
               ))}
             </ul>
-            <button className="mt-6 py-2 rounded bg-white border border-amber-300 group-hover:border-0 group-hover:bg-blue-500 group-hover:transition-colors duration-300">
+            <button
+              className="
+    mt-6
+    py-2
+    px-6                
+    rounded
+    bg-white
+    border border-amber-300
+    group-hover:border-0
+    group-hover:bg-blue-500
+    group-hover:transition-colors
+    duration-300
+    block               
+    mx-auto 
+    mr-200            
+    text-center         
+    min-w-[150px]       
+  "
+            >
               Get Started
             </button>
           </div>
