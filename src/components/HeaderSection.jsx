@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { FaArrowRight, FaChevronDown, FaBars } from 'react-icons/fa';
 import logo from '../assets/logo.png';
+import headerbg from '../assets/headerBg.png';
 
 const HeaderSection = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-primary text-white scroll-smooth">
+    <div
+      className="min-h-screen text-white scroll-smooth bg-cover bg-center"
+      style={{ backgroundImage: `url(${headerbg})` }}
+    >
       {/* Navbar */}
       <nav className="px-6 md:px-20 xl:px-40 py-4 border-b border-white/10 relative">
         <div className="flex items-center justify-between">
